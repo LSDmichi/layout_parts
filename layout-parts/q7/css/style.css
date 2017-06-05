@@ -1,5 +1,193 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.main {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.centering {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.kill_margin {
+  margin: 0;
+}
+
+
+.Q7_1 {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 1px #00BCD4;
+  vertical-align: middle;
+  outline: 0;
+}
+
+.Q7_1:hover {
+  cursor: auto;
+}
+
+.Q7_1:focus {
+  box-shadow: 0 0 7px #00BCD4;
+
+}
+
+.Q7_1::-webkit-input-placeholder {
+  color: #00BCD4;
+}
+
+
+
+label,input:hover {
+  cursor: pointer;
+}
+
+.Q7_2 {
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 1px #00BCD4;
+  padding: 5px;
+  outline: 0;
+  resize: none;
+}
+
+.q_7button {
+  display: none;
+}
+
+.radio {
+  position: relative;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: solid 1px #ccc;
+  -webkit-appearance: none;
+  background-color: #fff;
+  outline: 0;
+  margin-top: -8px;
+}
+
+/*.radio::before {
+  content: '';
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 1px;
+  border-radius: 50%;
+  border: solid 1px #ccc;
+  -webkit-appearance: none;
+  background-color: red;
+  vertical-align: bottom;
+  display: inline-block;
+  outline: 0;
+}*/
+
+.q_7button:checked +
+.radio::after{
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  margin-top: -6px;
+  content: '';
+  display: inline-block;
+  background-color: #00BCD4;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: translate(2px,2px);
+}
+
+.centering select {
+  -webkit-appearance: none;
+  outline: 0;
+  background-color: #fff;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.kill_margin > label {
+  margin: 0;
+}
+
+
+/*.checkbox_before::before {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  border: solid #ccc 1px ;
+  outline: 0;
+}*/
+
+.checkbox {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  border: solid #ccc 1px ;
+  outline: 0;
+}
+
+.checkbox:checked::after {
+  content: '';
+  width: 12px;
+  height: 5px;
+  transform: rotate(-45deg) translate(4px,-1px);
+  display: inline-block;
+  background-color: transparent;
+  border-bottom: solid 2px #00BCD4;;
+  border-left: solid 2px #00BCD4;;
+}
+
+.vital {
+  position: relative;
+}
+
+select {
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+}
+
+.vital::before {
+  position: absolute;
+  right: 9px;
+  top: 6px;
+  content: '';
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  transform: rotate(-45deg);
+  height: 8px;
+  width: 8px;
+}
+
+.button {
+  padding: 5px 10px;
+  color: #00BCD4;
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #00BCD4;
+  outline: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #00BCD4;
+  color: #fff;
+}
 
 /* 回答はここに書いてね */
