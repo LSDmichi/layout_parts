@@ -65,6 +65,9 @@
 }
 
 .F_position {
-  transform: translate(100px, 80px);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 /* 回答はここに書いてね */
