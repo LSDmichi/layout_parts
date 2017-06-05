@@ -42,14 +42,13 @@
   margin-left: 10px;
 }
 
-button:first-child
-{
+.is-blue {
   background-color: #00bcd4;
   color: #fff;
   margin-left: 0;
 }
 
-button:nth-child(2){
+.is-error {
   background-color: #ff4081;
   color: #fff;
 }
