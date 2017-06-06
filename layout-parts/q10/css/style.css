@@ -1,5 +1,214 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.main {
+  background-color: #ecf2f1;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.asterisk {
+  color: #f00;
+}
+
+.form_title {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.line {
+  background-color: #ecf2f1;
+  display: inline-block;
+  position: relative;
+  padding-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form_title::before{
+  position: absolute;
+  top: 12px;
+  left: 0;
+  content: '';
+  border-bottom: solid #ccc 1px;
+  width: 100%;
+}
+
+.textarea {
+  resize: none;
+  outline: none;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.form_body {
+  height: 200px;
+}
+
+.left {
+  float: left;
+  width: 300px;
+  font-size: 16px;
+}
+
+.details {
+  margin-bottom: 20px;
+}
+
+.float_inside_form_L {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  text-align: right;
+  margin-right: 20px;
+  line-height: 25px;
+}
+
+.float_inside_form_R {
+  display: inline-block;
+  float: right;
+  text-align: left;
+  width: 180px;
+  line-height: 22px;
+}
+
+.text_resizer {
+  width: 180px;
+  outline: 0;
+  border-radius: 5px;
+  border: 0;
+  line-height: 25px;
+  padding: 1px;
+  padding: 0 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.right {
+  float: right;
+  height: inherit;
+  width: 380px;
+  box-sizing: border-box;
+  resize: none;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.radio_1 {
+  display: none;
+}
+
+.radio_2 {
+  display: none;
+}
+
+.button_L {
+  padding: 3px 3px 3px 20px;
+  position: relative;
+}
+
+.button_L::before {
+  display: inline-block;
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+  border: solid #ccc 1px;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.radio_1:checked +
+.button_L::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #00BCD4;
+  border: none;
+  margin-top: -6px;
+  position: absolute;
+  top: 50%;
+  left: 4px;
+}
+
+.hehe {
+  cursor: pointer;
+}
+
+.button_R {
+  padding: 3px 3px 3px 20px;
+  position: relative;
+}
+
+.button_R::before {
+  display: inline-block;
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-top: -8px;
+  background-color: white;
+  border: solid #ccc 1px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.radio_2:checked +
+.button_R::after {
+  display: inline-block;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #00BCD4;
+  margin-top: -6px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 4px;
+}
+
+.radio:hover {
+  cursor: pointer;
+}
+
+.submitter {
+  display: block;
+  -webkit-appearance: none;
+  background-color: #00BCD4;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  padding: 0 10px;
+  line-height: 26px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.float_button {
+  float: right;
+}
+/*
+.kill_margin {
+  margin: 0;
+}*/
 
 /* 回答はここに書いてね */

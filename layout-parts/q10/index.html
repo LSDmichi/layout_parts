@@ -37,7 +37,58 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
+        <div>
+          <div class="main">
+            <div class="form_title">
+              <p class="line">Form Exercise</p>
+            </div>
+            <form class="form_body clearfix" action="index.html" method="get">
+              <div class="left">
+                <div class="margin-bottom">
+                  <div class="details clearfix kill_margin">
+                    <div class="float_inside_form_L">name <span class="asterisk">*</span></div>
+                    <div class="float_inside_form_R"><input class="text_resizer" type="text" name="name" required></div>
+                  </div>
 
+                  <div class="details clearfix">
+                    <div class="float_inside_form_L">Sex</div>
+                    <div class="float_inside_form_R">
+                      <label class="hehe" for="male">
+                        <input class="radio_1" type="radio" name="sex" value="male" id="male">
+                          <span class="button_L">male</span>
+                      </label>
+                    <label class="hehe" for="female">
+                      <input class="radio_2" type="radio" name="sex" value="female" id="female">
+                        <span class="button_R">female</span>
+                    </label>
+                    </div>
+                  </div>
+
+                  <div class="details clearfix">
+                    <div class="float_inside_form_L">Email <span class="asterisk">*</span></div>
+                    <div class="float_inside_form_R">
+                      <input class="text_resizer" type="text" name="email" placeholder="ex) hoge@gmail.com" required>
+                    </div>
+                  </div>
+
+                  <div class="details clearfix">
+                    <div class="float_inside_form_L">Telephone</div>
+                      <div class="float_inside_form_R">
+                        <input class="text_resizer" type="text" name="tele" placeholder="ex) 08012345678">
+                      </div>
+                  </div>
+
+                </div>
+
+                <div class="clearfix">
+                  <input class="submitter float_button" type="submit" value="submit">
+                </div>
+
+              </div>
+              <textarea class="right textarea" name="main_part" placeholder="Please fill in the message..."></textarea>
+            </form>
+          </div>
+        </div>
         <!-- 回答はここに書いてね -->
     </div>
 </div>
